@@ -1,6 +1,6 @@
-import {TestLib} from './lib/test-lib.mjs';
-
+import {TestLib} from './lib/test-lib-1.mjs';
 import {createMessage, createAnotherMessage} from './lib/test-lib-2.mjs';
+import {testLodash} from './lib/test-lib-3.mjs';
 
 let message1 = TestLib.createMessage();
 let message2 = TestLib.createAnotherMessage();
@@ -12,3 +12,4 @@ let message4 = createAnotherMessage();
 console.log('===> message 3:\n' + JSON.stringify(message3, null, 4));
 console.log('===> message 4:\n' + JSON.stringify(message4, null, 4));
 
+console.log('===> message 5:\n' + JSON.stringify(testLodash(), null, 4));

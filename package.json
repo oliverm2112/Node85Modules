@@ -1,11 +1,26 @@
 {
   "name": "node85modules",
-  "version": "0.0.1",
-  "private": false,
+  "version": "1.0.0",
+  "description": "A small demo of module syntax support in Node.js 8.5.",
+  "main": "app.mjs",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "lodash": "4.17.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "node --experimental-modules app.mjs"
   },
-  "repository": "https://github.com/oliverm2112/Node85Modules",
-  "author": "Oliver Merk",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverm2112/Node85Modules.git"
+  },
+  "author": "Oliver Merk <npm@olivermerk.com> (http://merkconsulting.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oliverm2112/Node85Modules/issues"
+  },
+  "homepage": "https://github.com/oliverm2112/Node85Modules#readme"
 }
