@@ -1,0 +1,11 @@
+{
+  "name": "node85modules",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node --experimental-modules app.mjs"
+  },
+  "repository": "https://github.com/oliverm2112/Node85Modules",
+  "author": "Oliver Merk",
+  "license": "MIT"
+}
